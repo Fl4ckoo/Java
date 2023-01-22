@@ -4,8 +4,8 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
 public final class JDBCUtil {
-    private static final String DB_URL = "jdbc:mysql://localhost:3306/javamysql";
-    private static final String DB_USER = "root";
+    private static final String DB_URL = "";
+    private static final String DB_USER = "";
     private static final String DB_PASSWORD = "";
 
     private static Connection connection;
