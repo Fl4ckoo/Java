@@ -40,14 +40,13 @@ public class XMLUtil {
 
         // Student 1
         Element firstName = doc.createElement("Name");
-        firstName.appendChild(doc.createTextNode("James Brown"));
+        firstName.appendChild(doc.createTextNode(""));
         student1.appendChild(firstName);
 
-        Attr attr1 = doc.createAttribute("kaia");
-        attr1.setValue("7");
-        student1.setAttributeNode(attr1);
 
 
+
+       
         Element id = doc.createElement("ID");
         id.appendChild(doc.createTextNode("8"));
         student1.appendChild(id);
@@ -55,12 +54,10 @@ public class XMLUtil {
 
         // Student 2
         Element firstName1 = doc.createElement("Name");
-        firstName1.appendChild(doc.createTextNode("Irakli Gvelesiani"));
+        firstName1.appendChild(doc.createTextNode(""));
         student2.appendChild(firstName1);
 
-        Attr attr2 = doc.createAttribute("kaia");
-        attr2.setValue("7");
-        student2.setAttributeNode(attr2);
+        
 
 
         Element id1 = doc.createElement("ID");
